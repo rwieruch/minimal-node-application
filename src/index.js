@@ -1,11 +1,9 @@
-import dotenv from 'dotenv';
+import 'dotenv/config';
 
-dotenv.config();
+const userCredentials = { firstname: 'Robin' };
+const userDetails = { nationality: 'German' };
+const user = { ...userCredentials, ...userDetails };
 
-const foo = { foo: 'foo' };
-const bar = { bar: 'bar' };
-const fooBar = { ...foo, ...bar };
-
-console.log(fooBar);
+console.log(user);
 
 console.log(process.env.SOME_ENV_VARIABLE);
