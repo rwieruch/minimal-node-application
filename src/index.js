@@ -2,7 +2,11 @@ import 'dotenv/config';
 
 const userCredentials = { firstname: 'Robin' };
 const userDetails = { nationality: 'German' };
-const user = { ...userCredentials, ...userDetails };
+
+const user = {
+  ...userCredentials,
+  ...userDetails,
+};
 
 console.log(user);
 
