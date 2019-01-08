@@ -20,6 +20,4 @@ An easy way to get started with JavaScript on the command line. [Read more about
 * `cd node-babel-server`
 * `npm install`
 * `npm start`
-* include *.env* in your *.gitignore*
-
-Adjust your Babel presets in *package.json* if you like to add or remove future JavaScript ES features.
+* optional: include *.env* in your *.gitignore*
