@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@babel/node": "^7.8.0",
-    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-env": "^7.8.2",
     "nodemon": "^1.18.9"
   },
   "dependencies": {
